@@ -1,0 +1,23 @@
+body {
+     background: url(../image/image\ 2.png); background-size:cover;
+     
+}
+
+.rtl-form { width:480px; background:#fff; padding:15px 30px; float: right; min-height: 105vh;}
+
+
+.box-2 {
+    margin-top:40%
+   }
+
+.heading{
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px; 
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+

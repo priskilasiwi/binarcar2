@@ -1,0 +1,154 @@
+<%- include("partials/head") %>
+
+<!-- // INI NAVBAR -->
+<nav class="navbar navbar-light bg-light fixed-top">
+    <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+              <form class="d-flex">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-primary me-2" type="submit">Search</button>
+                <img class="img-responsive" src="image/Frame 33.png">
+              </form>
+      
+        <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+            <div class="offcanvas-header justify-content-end">
+              <img class = "m-2" src="image/Rectangle 62.svg">
+              <h1 class="dashboard m-2">CARS</h1>
+              <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+              <div class="sidebar">
+                <i class="fa fa-fw fa-envelope me-4"></i> <img src="image/Rectangle 63.svg">
+                <a href="/dashboard"><i class="fa fa-fw fa-home"></i> <img src="image/Home.svg"></a>
+                <a href="/cars"><i class="fa fa-fw fa-wrench"></i> <img src="image/AdministratorCAR.png"></a>  
+              </div>
+        </div>
+    </div>
+</nav>
+
+  <!-- INI CONTENT -->
+  <div class="content">
+    <div class="container">
+        <p><b> Cars</b> <img src="image/Vector.svg"> List Car </p>
+        <div class="d-flex flex-row justify-content-between">
+            <h1 class="heading p-2">List Car</h1>
+            <a href="/addcar" type="button" class="btn btn-add btn-sm text-white d-inline-flex"><img src="image/fi_plus.svg">Add New Car</a>
+        </div>
+        <div class="d-flex flex-row">
+            <a class="btn btn-outline-primary btn-ls">All</a>
+            <a class="btn btn-outline-primary btn-ls">Small</a>
+            <a class="btn btn-outline-primary btn-ls">Medium</a>
+            <a class="btn btn-outline-primary btn-ls">Large</a>
+        </div>
+
+      <div class="container mt-4">
+          <div class="container">
+              <div class="d-flex flex-row justify-content-between">
+                    <div class="card p-6" style="width: 19rem;">
+                        <img src="image/image 1.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <p>Nama/Tipe Mobil</p>
+                            <p><b>Rp 430.000 / hari</b></p>
+                            <p><img src="image/fi_key.svg" class="text-img"> Start rent - Finish rent</p>
+                            <p><img src="image/fi_clock.svg" class="text-img"> Updated at 4 Apr 2022, 09.00</p>
+                            <div class="d-flex flex-row justify-content-center">
+                                <a href="#" class="btn btn-outline-danger px-3 me-4">
+                                    <span><img src ="image/sampah.svg "> </span>Delete</a>
+                                <a href="#" class="btn btn-success px-4">
+                                    <span><img src = "image/fi_edit.png"> </span>Edit</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card p-6" style="width: 19rem;">
+                        <img src="image/image 1.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <p>Nama/Tipe Mobil</p>
+                            <p><b>Rp 430.000 / hari</b></p>
+                            <p><img src="image/fi_key.svg" class="text-img"> Start rent - Finish rent</p>
+                            <p><img src="image/fi_clock.svg" class="text-img"> Updated at 4 Apr 2022, 09.00</p>
+                            <div class="d-flex flex-row justify-content-center">
+                                <a href="#" class="btn btn-outline-danger px-3 me-4">
+                                    <span><img src ="image/sampah.svg "> </span>Delete</a>
+                                <a href="#" class="btn btn-success px-4">
+                                    <span><img src = "image/fi_edit.png"> </span>Edit</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card p-6" style="width: 19rem;">
+                        <img src="image/image 1.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <p>Nama/Tipe Mobil</p>
+                        <p><b>Rp 430.000 / hari</b></p>
+                        <p><img src="image/fi_key.svg" class="text-img"> Start rent - Finish rent</p>
+                        <p><img src="image/fi_clock.svg" class="text-img"> Updated at 4 Apr 2022, 09.00</p>
+                        <div class="d-flex flex-row justify-content-center">
+                            <a href="#" class="btn btn-outline-danger px-3 me-4">
+                                <span><img src ="image/sampah.svg "> </span>Delete</a>
+                            <a href="#" class="btn btn-success px-4">
+                                <span><img src = "image/fi_edit.png"> </span>Edit</a>
+                        </div>
+                    </div>
+                </div>
+              </div>
+          </div>   
+
+          <div class="container mt-4">
+            <div class="d-flex flex-row justify-content-between">
+                  <div class="card p-6" style="width: 19rem;">
+                      <img src="image/image 1.png" class="card-img-top" alt="...">
+                      <div class="card-body">
+                          <p>Nama/Tipe Mobil</p>
+                          <p><b>Rp 430.000 / hari</b></p>
+                          <p><img src="image/fi_key.svg" class="text-img"> Start rent - Finish rent</p>
+                          <p><img src="image/fi_clock.svg" class="text-img"> Updated at 4 Apr 2022, 09.00</p>
+                          <div class="d-flex flex-row justify-content-center">
+                              <a href="#" class="btn btn-outline-danger px-3 me-4">
+                                  <span><img src ="image/sampah.svg "> </span>Delete</a>
+                              <a href="#" class="btn btn-success px-4">
+                                  <span><img src = "image/fi_edit.png"> </span>Edit</a>
+                          </div>
+                      </div>
+                  </div>
+
+                  <div class="card p-6" style="width: 19rem;">
+                      <img src="image/image 1.png" class="card-img-top" alt="...">
+                      <div class="card-body">
+                          <p>Nama/Tipe Mobil</p>
+                          <p><b>Rp 430.000 / hari</b></p>
+                          <p><img src="image/fi_key.svg" class="text-img"> Start rent - Finish rent</p>
+                          <p><img src="image/fi_clock.svg" class="text-img"> Updated at 4 Apr 2022, 09.00</p>
+                          <div class="d-flex flex-row justify-content-center">
+                              <a href="#" class="btn btn-outline-danger px-3 me-4">
+                                  <span><img src ="image/sampah.svg "> </span>Delete</a>
+                              <a href="#" class="btn btn-success px-4">
+                                  <span><img src = "image/fi_edit.png"> </span>Edit</a>
+                          </div>
+                      </div>
+                  </div>
+
+                  <div class="card p-6" style="width: 19rem;">
+                      <img src="image/image 1.png" class="card-img-top" alt="...">
+                  <div class="card-body">
+                      <p>Nama/Tipe Mobil</p>
+                      <p><b>Rp 430.000 / hari</b></p>
+                      <p><img src="image/fi_key.svg" class="text-img"> Start rent - Finish rent</p>
+                      <p><img src="image/fi_clock.svg" class="text-img"> Updated at 4 Apr 2022, 09.00</p>
+                      <div class="d-flex flex-row justify-content-center">
+                          <a href="#" class="btn btn-outline-danger px-3 me-4">
+                              <span><img src ="image/sampah.svg "> </span>Delete</a>
+                          <a href="#" class="btn btn-success px-4">
+                              <span><img src = "image/fi_edit.png"> </span>Edit</a>
+                      </div>
+                  </div>
+              </div>
+            </div>
+        </div> 
+        </div>
+      </div>
+
+      
+<%- include("partials/footer") %>
+    

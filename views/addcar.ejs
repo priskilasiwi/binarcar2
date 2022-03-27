@@ -1,0 +1,91 @@
+<%- include("partials/head") %>
+
+<!-- // INI NAVBAR -->
+<nav class="navbar navbar-light bg-light fixed-top">
+    <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+              <form class="d-flex">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-primary me-2" type="submit">Search</button>
+                <img class="img-responsive" src="image/Frame 33.png">
+              </form>
+      
+        <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+            <div class="offcanvas-header justify-content-end">
+              <img class = "m-2" src="image/Rectangle 62.svg">
+              <h1 class="dashboard m-2">CARS</h1>
+              <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+              <div class="sidebar">
+                <i class="fa fa-fw fa-envelope me-4"></i> <img src="image/Rectangle 63.svg">
+                <a href="/dashboard"><i class="fa fa-fw fa-home"></i> <img src="image/Home.svg"></a>
+                <a href="/cars"><i class="fa fa-fw fa-wrench"></i> <img src="image/AdministratorCAR.png"></a>  
+              </div>
+        </div>
+    </div>
+</nav>
+
+  <!-- INI CONTENT -->
+    <div class="content">
+        <div class="container">
+            <p><b> Cars</b> <img src="image/Vector.svg"><b> List Car </b> <img src="image/Vector.svg">Add New Car</p>
+            <h1 class="heading p-2">Add New Car</h1>
+
+            <!-- Form -->
+            <form class="form">
+                <div class="p-4">
+                <div class="row mb-3">
+                  <label for="inputEmail3" class="col-sm-2 col-form-label">Nama*</label>
+                  <div class="col-sm-10">
+                    <input type="email" class="form-control" placeholder="placeholder" id="inputEmail3">
+                  </div>
+                </div>
+                <div class="row mb-3">
+                  <label for="inputPassword3" class="col-sm-2 col-form-label">Harga*</label>
+                  <div class="col-sm-10">
+                    <input type="password" class="form-control" placeholder="placeholder" id="inputPassword3">
+                  </div>
+                </div>
+                <div class="row mb-3">
+                    <label for="inputPassword3" class="col-sm-2 col-form-label">Foto*</label>
+                    <div class="col-sm-10">
+                      <input type="password" class="form-control" placeholder="placeholder" id="inputPassword3">
+                      <small id="emailHelp" class="form-text text-muted">File size max. 2MB</small>
+                    </div>
+                </div>
+                <div class="row mb-3">
+                    <label for="inputPassword3" class="col-sm-2 col-form-label">Start Rent </label>
+                    <div class="col-sm-10">
+                      <p>-</p>
+                    </div>
+                </div>
+                <div class="row mb-3">
+                    <label for="inputPassword3" class="col-sm-2 col-form-label">Finish Rent </label>
+                    <div class="col-sm-10">
+                      <p>-</p>
+                    </div>
+                </div>
+                <div class="row mb-3">
+                    <label for="inputPassword3" class="col-sm-2 col-form-label">Created at </label>
+                    <div class="col-sm-10">
+                      <p>-</p>
+                    </div>
+                </div>
+                <div class="row mb-3">
+                    <label for="inputPassword3" class="col-sm-2 col-form-label">Updated at </label>
+                    <div class="col-sm-10">
+                      <p>-</p>
+                    </div>
+                </div>
+              </form>
+              </div>
+              <button class="btn btn-outline-primary mt-5"> Cancel </button>
+              <button class="btn btn-primary mt-5"> Save </button>
+        </div>
+    </div>
+
+      
+<%- include("partials/footer") %>
+    
